@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Fira+Sans+Extra+Condensed|Fira+Mono);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 75%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-weight: normal;
+}
+
+h2 {
+	margin: 1rem 0 1.5rem !important;
+	border-bottom: 1px solid lightgray;
+}
+
+h3, h4, h5 {
+	margin: 1rem 0;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin-left: -1rem;
+}
+
+li {
+	margin-top: .15em;
+	/* line-height: 1.5em; */
+}
+
+u {
+	text-decoration-color: darkgray;
+}
+
+p {
+	text-align: justify;
+}
+
+pre {
+	margin: 0;
+}
+
+blockquote {
+	border-left: .5rem solid lightgray;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding-left: 1rem;
+	text-align: justify;
+}
+
+	blockquote > *:first-child {
+		margin-top: 0;
+	}
+
+	blockquote > *:last-child {
+		margin-bottom: 0;
+	}
+
+	.no-justify blockquote {
+		text-align: inherit;
+	}
+
+table {
+	width: fit-content;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+	th, td {
+		padding: .25rem .5rem;
+	}
+
+textarea { display: none; }
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.remark-slide {
+	display: inherit;
+	table-layout: inherit;
+}
+
+	.remark-slide  > .center {
+		justify-content: center;
+	}
+
+.remark-slide-content {
+	/*background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: table-cell;*/
+	display: flex;
+	flex-direction: column;
+	height: 96%;
+
+	font-size: 18px;
+	padding: 1rem 4rem 1rem 4rem;
+}
+
+	.remark-slide-content > * {
+		margin-top: 0;
+	}
+
+	.remark-slide-content > pre, .remark-slide-content > table {
+		margin-bottom: 1em;
+	}
+
+	.remark-slide-content pre > code {
+		margin-top: 0;
+	}
+
+	.remark-slide-content.cover-page h1 {
+		font-size: 5rem;
+	}
+
+	.remark-slide-content.cover-page h2 {
+		font-size: 3rem;
+		border-bottom: 0px;
+	}
+
+	.remark-slide-content.cover-page h3 {
+		font-size: 1.75rem;
+	}
+
+	.remark-slide-content.long {
+		font-size: 17px;
+	}
+
+	.remark-slide-content.longer {
+		font-size: 16px;
+	}
+
+	.remark-slide-content.longest {
+		font-size: 14px;
+	}
+
+	.remark-slide-content h2 {
+		font-size: 38px;
+	}
+
+	.remark-slide-content h3 {
+		font-size: 32px;
+	}
+
+	.remark-slide-content pre {
+		display: flex;
+	}
+
+		.remark-slide-content pre > code {
+			flex-grow: 1;
+		}
+
+		.remark-slide-content > pre:last-of-type {
+			overflow-y: auto;
+			margin-bottom: 2rem;
+		}
+
+.contents {
+	overflow-y: scroll;
+	margin-bottom: 2em;
+	text-size-adjust: none;
+}
+
+	.contents ul {
+		margin: 0;
+	}
+
+.remark-code {
+	font-size: 18px;
+	line-height: 1.25em;
+	box-shadow: inset 1px 1px 5px 1px rgba(128, 128, 128, .5);
+	background: #f9f9f9 !important;
+}
+
+	.long .remark-code {
+		font-size: 17px;
+	}
+
+	.longer .remark-code {
+		font-size: 15px;
+	}
+
+	.longest .remark-code {
+		font-size: 14px;
+	}
+
+	.remark-code .expand-icon {
+		position: absolute;
+		top: .25em;
+		right: .15em;
+		font-size: 2.5em;
+		cursor: pointer;
+	}
+
+		.remark-code .expand-icon::after {
+			content: '◹';
+		}
+
+		.remark-code.expanded .expand-icon::after {
+			content: '◺';
+		}
+
+	.remark-code.expanded {
+		position: absolute;
+		top: .5em;
+		right: .5em;
+		bottom: .5em;
+		left: .5em;
+		z-index: 999;
+	}
+
+.remark-code, .remark-inline-code {
+	font-family: 'Fira Mono', monospace;
+	border-radius: .25em;
+}
+
+.remark-inline-code {
+	background-color: #efefef;
+	border: 1px solid #e0e0e0;
+	white-space: pre;
+}
+
+
+.footnote {
+	position: absolute;
+	bottom: 0;
+	font-size: 14px;
+	font-style: italic;
+}
+
+	.footnote ol {
+		padding-left: 1em;
+	}
+
+.inverse {
+	background: #272822;
+	color: #777872;
+	text-shadow: 0 0 20px #333;
+}
+
+.inverse h1,
+.inverse h2 {
+	color: #f3f3f3;
+	line-height: 1.2em;
+}
+
+.new-book h2 {
+	color: green;
+}
+
+.side-by-side {
+	display: flex;
+    align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+
+	.side-by-side > * {
+		flex-grow: 1;
+		height: 100%;
+	}
+
+	.side-by-side > *:not(:first-child) {
+		margin-left: 1em;
+	}
+
+	.side-by-side + .side-by-side {
+		margin-top: 1em;
+	}
+
+.remark-slide-number {
+	cursor: pointer;
+}
+
+	.remark-slide-number:hover {
+		text-decoration: underline;
+	}
+
+/* .hljs-subst { color: black; } */
+.hljs-number { color: #a31515; }
+.hljs-symbol { color: #0090f6 !important; }
+
+/* Export to PDF · Issue #50 · gnab/remark - https://goo.gl/WaosRl */
+@page {
+	/* 16:9 */
+/*	size: 1210px 681px; */
+	/* 4:3 */
+/*	size: 908px 681px; */
+	size: 1024px 768px;
+	margin: 0;
+}
+
+@media print {
+	.remark-slide-scaler {
+		width: 100% !important;
+		height: 100% !important;
+		transform: scale(1) !important;
+		top: 0 !important;
+		left: 0 !important;
+	}
+
+	.remark-code-line {
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
