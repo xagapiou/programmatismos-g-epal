@@ -47,6 +47,8 @@ layout: true
 - ο λογικός (boolean): δέχεται μόνο δύο τιμές, την τιμή True (Αληθής) 
 και την τιμή False (Ψευδής)
 
+>[Python types (documentation)](https://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#numeric-types-int-float-long-complex)
+
 ---
 
 - οι συμβολοσειρές ή αλφαριθμητικά (strings): μια ακολουθία από χαρακτήρες. Μια συμβολοσειρά 
