@@ -47,8 +47,9 @@ layout: true
 - ο λογικός (boolean): δέχεται μόνο δύο τιμές, την τιμή True (Αληθής) 
 και την τιμή False (Ψευδής)
 
->[Python types (documentation)](https://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#numeric-types-int-float-long-complex)
-
+.footnote[
+[Python types (documentation)](https://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#numeric-types-int-float-long-complex)
+]
 ---
 
 - οι συμβολοσειρές ή αλφαριθμητικά (strings): μια ακολουθία από χαρακτήρες. Μια συμβολοσειρά 
@@ -60,7 +61,7 @@ layout: true
   -[Θέματα 2024 - Α2 Αντιστοίχιση](https://apps1.minedu.gov.gr/themata/2024_06_them_sc_epal_240611.pdf)
 
 .footnote[
-
+[Python strings (documentation)](https://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#sequence-types-str-unicode-list-tuple-bytearray-buffer-xrange)
 ]
 
 ---
