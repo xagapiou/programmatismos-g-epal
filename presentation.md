@@ -141,12 +141,12 @@ layout: true
 
 3.**Τελεστές λογικών πράξεων**: Στις λογικές πράξεις και εκφράσεις χρησιμοποιούνται οι λογικοί τελεστές not (ΟΧΙ), and (ΚΑΙ), or (Ή) 
 
-|P | Q | P and Q |P or Q |Not P|
----|---|---------|-------|-----------
-True |True |True | True | False
-True |False |False | True | False
-False |True |False |True | True
-False |False |False |False | True
+| P   | Q   | P and Q   | P or Q   | Not P |
+| --- | --- | --------- | ------- | ----------- |
+| True | True | True | True | False |
+| True | False | False | True | False |
+| False | True | False | True | True |
+| False | False | False | False | True |
 
 ---
 
@@ -177,7 +177,7 @@ False |False |False |False | True
 | and |    as|    assert|    break|  class | continue | def | del |
 | elif | else | except | FALSE | finally | for | from | global |
 | if | import | in | is |  lambda | None |  nonlocal | not |
-| or | pass | raise | return | TRUE | τry | while | with |
+| or | pass | raise | return | TRUE | try | while | with |
 | yield |
     
   - το όνομα είναι case-sensitive. Υπάρχει διάκριση πεζών-κεφαλαίων (δηλαδή είναι διαφορετικά το age από το Age και το AGe)
