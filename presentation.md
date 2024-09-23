@@ -7,7 +7,7 @@ lass: cover-page, center, middle, inverse
 
 ### Τομέας Πληροφορικής
 
-![book](/images/24-0601-01_V2-exof-500x.jpg)
+![book](images/24-0601-01_V2-exof-500x.jpg)
 
 ---
 name: contents
