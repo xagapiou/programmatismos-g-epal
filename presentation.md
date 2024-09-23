@@ -7,6 +7,8 @@ lass: cover-page, center, middle, inverse
 
 ### Τομέας Πληροφορικής
 
+![book](http://ebooks.edu.gr/ebooks/retrieve/18211197-e1e6-44fa-8c8f-fda5006b2eed/24-0601-01_V2-exof-500x.jpg)
+
 ---
 name: contents
 
